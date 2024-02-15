@@ -155,9 +155,15 @@ body{
 
 
 
-@media screen and (min-width: 1024px) {
+@media screen and (max-height: 600px) {
+
+    body{
+        height: auto;
+    }
+
     .conteiner{
-        height: 85vh;
+        height: auto;
+        max-height: 80vh;
         width:  40vw;
     }
 
