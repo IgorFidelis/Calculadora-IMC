@@ -21,8 +21,8 @@ body{
     border-radius: 10px;
     justify-content:center ;
     align-items: center;
-    height: 70vh;
-    width: 80vw;
+    height: 80vh;
+    width: 40vw;
     padding: 20px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, .8);
 }
@@ -54,11 +54,12 @@ body{
 }
 
 .dados{
-    background-color: rgba(0, 0, 0, .3);
+    background-color: rgba(0, 0, 0, 0.3);
     border-radius: 10px;
     margin: 10px 0 10px;
     padding: 10px 10px;
-    height: 35vh;
+    height: 50vh;
+    width: 30vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -70,11 +71,14 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: start;
-    padding: 5px 0px;
+    padding: 10px 0px;
     overflow: hidden;
-    height: 10vh;
-    width: 50vw;
-    margin-bottom: 10px;
+    height: 17vh;
+    width: 25vw;
+}
+
+.dados .inputs span{
+    margin-top: 20px;
 }
 
 .inputs input{
@@ -86,6 +90,7 @@ body{
     border-radius: 11px;
     border: none;
     outline: none;
+    padding-bottom: 5px;
 }
 
 .inputs input:hover{
@@ -109,6 +114,11 @@ body{
     background-color: #521cd4;
     text-transform: uppercase;
     outline: none;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: #351286;
 }
 
 .btn:disabled{
